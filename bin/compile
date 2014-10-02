@@ -165,6 +165,9 @@ source $BIN_DIR/steps/pylibmc
 # Libffi support.
 source $BIN_DIR/steps/cryptography
 
+# Libgit2 support.
+source $BIN_DIR/steps/libgit2
+
 # Install dependencies with Pip.
 source $BIN_DIR/steps/pip-install
 
